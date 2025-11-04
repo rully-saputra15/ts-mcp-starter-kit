@@ -207,8 +207,8 @@ This MCP server supports two transport methods:
      "mcpServers": {
        "ts_mcp_starter": {
          "command": "node",
-         "args": ["/absolute/path/to/ts_mcp_starter/node_modules/.bin/tsx", "src/stdio.ts"],
-         "cwd": "/absolute/path/to/ts_mcp_starter"
+         "args": ["/absolute/path/to/YOUR_MCP_FOLDER/node_modules/.bin/tsx", "src/stdio.ts"],
+         "cwd": "/absolute/path/to/YOUR_MCP_FOLDER"
        }
      }
    }
